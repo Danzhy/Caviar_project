@@ -1,0 +1,123 @@
+.montserrat-thin {
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.montserrat-extra-light {
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.montserrat-light {
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.montserrat-regular {
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.montserrat-medium {
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.montserrat-semi-bold {
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.montserrat-bold {
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.montserrat-extra-bold {
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.montserrat-black {
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
+
+a{
+  color:#001A34;
+  text-decoration: none;
+
+}
+
+a:hover{
+  color: #F15E22;
+}
+
+.button_orange{
+  background-color: #F15E22;
+  color: white;
+  border: 0;
+  border-radius: 5px;
+  padding: 12px 20px; 
+  cursor: pointer; 
+}
+
+.button_orange:hover{
+  background-color: #FF7033;
+  transform: scale(1.05);
+}
+
+.header_meta_info{
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+  align-items: center;
+}
+
+.city_selector{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 30px;
+  flex-basis: 250px;
+
+}
+.page_nav{
+  flex-basis: 830px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.city_selector > img {
+  height: 20px;
+}
+
+.contact_info{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 30px;
+  flex-basis: 330px;
+
+}
+.contact_info_number > a{
+  font-weight: bold;
+}
