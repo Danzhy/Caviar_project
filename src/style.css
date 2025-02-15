@@ -85,7 +85,7 @@ a:hover{
   transform: scale(1.05);
 }
 
-.header_meta_info{
+.header_meta_nav{
   display: flex;
   justify-content: space-between;
   height: 70px;
@@ -120,4 +120,51 @@ a:hover{
 }
 .contact_info_number > a{
   font-weight: bold;
+}
+
+.header_meta_info{
+  display: flex;
+}
+
+.header_logo{
+  display: flex;
+  /* justify-content: space-around; */
+}
+.header_logo > img{
+  width: 254px;
+  height: 34px;
+}
+.header_logo > p{
+  max-width: 200px;
+  margin: 0;
+}
+
+#search{
+  width: 562px;
+  height: 50px;
+  background-color: #EFF3F6;
+  border: 0;
+  border-radius: 5px;
+}
+
+.user_login_favorites{
+  display: flex;
+}
+.shopping_cart{
+  position: relative;
+}
+.shopping_cart_icon_logo{
+  background-color: #F15E22;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.shopping_cart_icon_number{
+  position: absolute;
+  top: 10px;
+  left: 50px;
 }
